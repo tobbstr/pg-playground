@@ -20,6 +20,8 @@ Wait until it says `Press any key to stop ...` and then connect to the database 
 psql "postgres://postgres:postgres@localhost:15432/postgres?sslmode=disable"
 ```
 
+To be able to see the sample data, change database by entering the command `\c f1db`. Then run `\dt` to list all the tables in the database. For more useful commands see [this](https://www.postgresql.org/docs/current/app-psql.html).
+
 ## Prerequisites
 
 - Docker must be installed
